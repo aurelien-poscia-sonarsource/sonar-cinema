@@ -8,6 +8,6 @@ public class Main {
 
   public static void printMovies() {
     CsvParser csvParser = new CsvParser();
-    csvParser.parseCsv("https://github.com/laxmimerit/All-CSV-ML-Data-Files-Download/blob/master/Restaurant%20-%20Foods.csv");
+    csvParser.parseCsv("https://raw.githubusercontent.com/aurelien-poscia-sonarsource/sonar-cinema/refs/heads/main/src/main/resources/food.csv");
   }
 }
